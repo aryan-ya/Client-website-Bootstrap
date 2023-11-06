@@ -14,9 +14,9 @@
 
 <!--MAIN NAVBAR -->
 
-<nav class="top-nav">
+<nav class="top-nav" id="home">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
             <div class="col-auto">
                 <p>
                     <i class='bx bxs-envelope'></i>
@@ -33,41 +33,68 @@
                 <a href=""><i class='bx bxl-facebook'></i></a>
                 <a href=""><i class='bx bxl-twitter'></i></a>
                 <a href=""><i class='bx bxl-github'></i></a>
+                <a href=""><i class='bx bxl-youtube'></i></a>
              </div>
             </div>
         </div>
     </div>
 </nav>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bootstrap<span>.</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link active" aria-current="page" href="#About">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="#team">Team</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Review">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
+          </li>
+
         </ul>
+        <a href="#" class="btn btn-brand ms-lg-3">Contact us</a>
       </div>
     </div>
-  </nav>
+  </nav> 
 
 
 
+<!-- Slider -->
+<div class="slide-wrapper">
+    <div class="slide1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h6>We craft digital experiences</h6>
+                    <h1>Design  Driven for  Proffesional</h1>
+                    <a href="#" class="btn btn-brand">Get started</a>
+                    <a href="#" class="btn btn-outline-light">Our work</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
+ 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
