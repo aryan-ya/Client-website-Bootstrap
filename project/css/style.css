@@ -80,3 +80,11 @@ body{
 
 /* slider */
 
+.slide1{
+    background-image: url(/project/img/bg_banner1.jpg);
+
+}.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center;
+}
