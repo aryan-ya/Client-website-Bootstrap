@@ -2,14 +2,14 @@
 
 body{
     font-family: "Barlow" , sans-serif;
-    line-height: 1.7;
-    color: #516171;
+    /* line-height: 1.7;
+    color: #516171; */
 }h1,h2,h3,h4,h5,h6{
     font-weight: 700 !important;
-    color: #092032;
+    color: #fff;
 
 }a{
-    color: #092032;
+    /* color: #092032; */
     text-decoration: none;
     font-weight: 500;
     transition: all 0.4s ease;
@@ -81,7 +81,7 @@ body{
 /* slider */
 
 .slide1{
-    background-image: url(/project/img/bg_banner1.jpg);
+    background:linear-gradient(rgba(9,32,50,0.3), #09203256), url(/project/img/bg_banner1.jpg);
 
 }.bg-cover{
     background-position: center !important;
