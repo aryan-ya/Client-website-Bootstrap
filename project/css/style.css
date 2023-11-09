@@ -125,10 +125,25 @@ a{
     right: 0;
 }.owl-prev:hover, .owl-next:hover{
    background-color: #ff4d29  !important;
+}section{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
 /* infobox */
+.info-box{
+    display: flex;
+    align-items: center;
+}
 .info-box img{
-    width: unset;
+    width: 90px;
+    margin-right: 24px;
+}#milestone{
+    background:linear-gradient(rgba(255, 77 , 41, 0.9), rgba(255, 77 , 41, 0.9)), url(/project/img/bg_banner2.jpg);
+
+}#milestone .display-4, #milestone p{
+    color: #fff;
+}#milestone .display-4{
+    font-weight: 700;
 }
