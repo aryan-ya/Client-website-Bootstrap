@@ -4,7 +4,8 @@ body{
     font-family: "Barlow" , sans-serif;
     /* line-height: 1.7;
     color: #516171; */
-}h1,h2,h3,h4,h6{
+}h1,h2,h3,h4,h6
+.display-1,.display-2,.display-3,.display-4{
     font-weight: 700 !important;
     color: #fff;
 
@@ -132,6 +133,14 @@ a{
 
 
 /* infobox */
+
+.intro h6{
+    font-weight: 700;
+    color: #ff4d29;
+}.intro p{
+    max-width: 500px;
+    margin: auto;
+}
 .info-box{
     display: flex;
     align-items: center;
@@ -146,4 +155,15 @@ a{
     color: #fff;
 }#milestone .display-4{
     font-weight: 700;
+}.intro{
+    margin-bottom: 40px;
+    margin: auto;
+}.service-box{
+    padding: 32px;
+    box-shadow: 0px 6px 30px  rgba(0, 0, 0, 0.08);
+    text-align: center;
+}.service-box img{
+    width: unset;
+}.service-box h5{
+    margin-top: 24px;
 }
