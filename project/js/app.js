@@ -24,23 +24,22 @@ $(document).ready(function(){
  //projectslider
 
 
-$('#hero-slider').owlCarousel({
+$('#project-slider').owlCarousel({
     loop:true,
     margin:0,
-    nav:true,
-    items: 1,
-    navText: ['PREV', 'NEXT'],
+    nav:false,
+  
     dots:false,
     smartSpeed: 1000,
     responsive:{
         0:{
-          nav: false, 
+        //   nav: false, 
         },
         768:{
-         nav:true,
+        //  nav:true,
         },
-        1000:{
-          
+        1140:{
+          items: 2,
         }
     }
 })
