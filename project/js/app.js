@@ -31,6 +31,7 @@ $('#project-slider').owlCarousel({
   
     dots:false,
     smartSpeed: 1000,
+    margin:24,
     responsive:{
         0:{
         //   nav: false, 
