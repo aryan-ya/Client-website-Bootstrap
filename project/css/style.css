@@ -4,7 +4,7 @@ body{
     font-family: "Barlow" , sans-serif;
     /* line-height: 1.7;
     color: #516171; */
-}h1,h2,h3,h4,h6
+}h1,h2,h3,h4,h5,h6
 .display-1,.display-2,.display-3,.display-4{
     font-weight: 700 !important;
     color: #fff;
@@ -166,4 +166,6 @@ a{
     width: unset;
 }.service-box h5{
     margin-top: 24px;
+}h6{
+    color: white;
 }
