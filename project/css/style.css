@@ -182,4 +182,6 @@ a{
     height: 240px;
     bottom: 0;
     left: 0;
+}.box{
+    background-color: #e3e9ff;
 }
