@@ -172,6 +172,16 @@ a{
 
 /* project */
 
+#project-slider  .owl-next,  #project-slider .owl-prev{
+   background-color: rgba(255, 255, 255, 0.5) !important;
+} 
+
+#project-slider  .owl-next:hover,
+ #project-slider .owl-prev:hover{
+    background-color: #ff4d29 !important;
+ } 
+
+
 .project{
     position: relative;
 }.project .overlay{
@@ -190,7 +200,15 @@ a{
     bottom: 0;
     left: 0;
     padding: 32px;
-}.project h1, .project h6{
+}.project h6{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+
+.project h1, .project h6{
     color: #fff;
 }.project h6::before{
     content: '';
