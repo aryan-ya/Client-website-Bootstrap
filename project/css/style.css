@@ -218,4 +218,40 @@ a{
     display: inline-block;
     vertical-align: middle;
     margin-right: 12px;
+}.team h1{
+    color: black;
+}
+
+
+
+
+
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}.team-member .overlay{
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 77 , 41, 0.89);
+    transition: all 0.4s ease;
+    opacity: 0;
+}#team h5{
+    color: black;
+}.team-member .social-links{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    transition: all 0.4s ease;
+}.team-member:hover .overlay{
+    opacity: 1;
+    top: 0;
+} .team-member:hover .social-links{
+    opacity: 1;
+    top: 50%;
+}.team-member h5{
+  margin-top: 24px;
 }

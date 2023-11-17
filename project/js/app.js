@@ -43,6 +43,7 @@ $('#project-slider').owlCarousel({
         },
         1140:{
           items: 2,
+          dots:true,
           center:true,
         }
     }
