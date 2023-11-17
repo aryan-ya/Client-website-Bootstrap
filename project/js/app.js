@@ -47,6 +47,14 @@ $('#project-slider').owlCarousel({
           center:true,
         }
     }
+
+
+
+
+    
 })
+
+
+
 
 });
