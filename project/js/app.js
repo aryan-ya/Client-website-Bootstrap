@@ -54,8 +54,9 @@ $('.owl-carousel').owlCarousel({
   loop:true,
   margin:10,
   nav:false,
-  dots:true,
+  dot:true,
  items:1,
+ smartSpeed:800,
  
 })
 
