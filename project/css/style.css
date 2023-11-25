@@ -208,8 +208,8 @@ a{
 
 
 
-.project h1, .project h6{
-    color: #fff;
+.content  h1, .content h6{
+    color: #fff !important;
 }.project h6::before{
     content: '';
     height: 2px;
@@ -228,7 +228,10 @@ a{
    
 }.slide-wrapper h1{
    color: white !important;
-}
+}.slide-wrapper h6{
+    color: white !important;
+ }
+ 
 
 
 .team-member .img-wrapper{
