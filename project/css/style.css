@@ -91,10 +91,10 @@ a{
 /* slider */
 
 .slide1{
-    background:linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)), url(/project/img/bg_banner1.jpg);
+    background:linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)), url(../img/bg_banner1.jpg);
 
 }.slide2{
-    background:linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)), url(/project/img/bg_banner2.jpg);
+    background:linear-gradient(rgba(9,32,50,0.4), rgba(9,32,50,0.4)), url(../img/bg_banner2.jpg);
 
 }
 
