@@ -14,4 +14,4 @@
 <img src="./project/img/ss7.png" alt="ss7">
 <img src="./project/img/ss8.png" alt="ss8">
 <img src="./project/img/ss9.png" alt="ss9">
-<img src="../project/img/ss10.png" alt="ss10">
+<img src="./project/img/ss10.png" alt="ss10">
