@@ -5,7 +5,7 @@
 
  # <a href ="https://bootstrap-websitee.vercel.app/">Live Link 😍😍</a>
 
-<img src="./project/img/ss1.png" alt="ss1">
+<img src="https://github.com/aryan-ya/bootstrap_websitee/assets/107910961/da053940-8fa9-49b4-909c-84f4102d0b14" alt="ss1">
 <img src="./project/img/ss2.png" alt="ss2">
 <img src="./project/img/ss3.png" alt="ss3">
 <img src= "./project/img/ss4.png" alt="ss4">
