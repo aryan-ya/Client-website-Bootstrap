@@ -3,7 +3,7 @@
 
 # HTML CSS BOOTSTRAP Website
 
- # <a href ="https://bootstrap-websitee.vercel.app/">Live Link 😍😍</a>
+ # <a href ="https://bootstrap-websitee.vercel.app/" target="_blank">Live Link 😍😍</a>
 
 <img src="https://github.com/aryan-ya/bootstrap_websitee/assets/107910961/da053940-8fa9-49b4-909c-84f4102d0b14" alt="ss1">
 <img src="https://github.com/aryan-ya/Client-website-Bootstrap/assets/107910961/d78eb325-3be1-4688-8a77-0086de6893cf" alt="ss2">
